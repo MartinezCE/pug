@@ -1,0 +1,12 @@
+html
+    head
+        title='test pug'
+        style
+            include styles.css
+    body
+        h1=title
+        div
+            p=producto.id
+            p=producto.title
+            p=producto.price
+            img(class='product-img', src=producto.thumbnail)
